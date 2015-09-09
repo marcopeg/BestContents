@@ -9,13 +9,11 @@ export default class Menu extends React.Component {
     render() {
         var { navigate } = this.props;
         return (
-            <div style={{marginTop:20}}>
-                <ButtonGroup>
-                    <Button onClick={$=> navigate('')}>Home</Button>
-                    <Button onClick={$=> navigate('stream/1')}>Stream</Button>
-                    <Button onClick={$=> navigate('resource/1')}>Resource</Button>
-                </ButtonGroup>
-            </div>
+            <ButtonGroup>
+                <Button onClick={$=> navigate('')}>Home</Button>
+                <Button onClick={$=> navigate('stream/1')}>Stream</Button>
+                <Button onClick={$=> navigate('resource/1')}>Resource</Button>
+            </ButtonGroup>
         );
     }
 }

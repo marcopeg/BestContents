@@ -6,12 +6,14 @@ import { devTools, persistState } from 'redux-devtools';
 
 import { routerStateReducer } from 'redux-react-router';
 import settingsReducer from 'reducers/settings';
+import accountReducer from 'reducers/account';
 
 var _store;
 
 const appReducer = combineReducers({
     router: routerStateReducer,
-    settings: settingsReducer
+    settings: settingsReducer,
+    account: accountReducer
 });
 
 export function initStore(initialState) {

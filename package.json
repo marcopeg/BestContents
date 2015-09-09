@@ -65,7 +65,7 @@
     "phantomjs": "^1.9.18",
     "pm2": "^0.14.6",
     "react": "^0.14.0-beta1",
-    "react-bootstrap": "0.24.5-react-pre.0",
+    "react-bootstrap": "v0.25.100-react-pre.0",
     "react-dom": "^0.14.0-beta1",
     "react-redux": "^0.2.2",
     "react-router": "^1.0.0-beta3",
